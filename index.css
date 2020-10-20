@@ -1,0 +1,35 @@
+/* Put your style information here! */
+h1 {
+    /* text-align: center; */
+
+    font-size: 3em;
+    margin: 0px;
+    /* background-color: #FDE37A */
+}
+
+h6 {
+    font-size: 1.25em;
+    margin-bottom: 0;
+    margin:10px;
+}
+ol {
+    font-size: 1em;
+}
+
+body {
+  background-color: #;
+  margin: 5% 10%;
+  /* text-align: center */
+}
+ul{
+    margin-bottom: 0;
+}
+head {
+    margin: 50%;
+}
+
+p {
+    font-size:100%;
+    margin-bottom: 0;
+    margin:0;
+}

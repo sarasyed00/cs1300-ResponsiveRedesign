@@ -1,0 +1,117 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Bagel Gourmet Cafe Menu</title>
+    <link rel="stylesheet" href="index.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <img src="bgcLogo.png" alt="Bagel Gourmet Cafe Logo" class="center" style="width:25%;">
+  </head>
+
+  <style>
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      .flex-container {
+          position: relative;
+          display: flex;
+          flex-wrap: nowrap; /*this is default*/
+          justify-content: space-between;
+          align-items: flex-start;
+          text-align: left;
+          /* padding: 0px;  ---> this is updown padding*/
+      }
+      .flex-container2 {
+          position: relative;
+          display: flex;
+          flex-wrap: nowrap;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+          text-align: center;
+          /* padding: 0px;  ---> this is updown padding*/
+      }
+  </style>
+  <body>
+    <p>In this project, I redesigned a local bagel shop's website to increase elements of usability, accesibility, and equitability.
+    Here is a link to Bagel Gourmet Cafe's (BGC) original website: <a style="color:rgba(133, 0, 0, 1)"  href="http://bagelgourmetcafe.com/";>BGC's site</a>. I focused specifically on redesigning their Menu page:</p>
+    <div class="flex-container2">
+        <div class="grid-item">
+            <img src="Menu1.png" alt="BGC's menu page, photo 1" class="center" style="width:100%;">
+        </div>
+        <div class="grid-item">
+            <img src="Menu2.png" alt="BGC's menu page, photo 2" class="center" style="width:100%;">
+        </div>
+    </div>
+    <p>In order to construct my design improvements, I first analyzed their existing site on factors of usability, learnability, accessibility, and memorability. Here are some points of improvement I noted:</p>
+    <h6 style="color:rgba(133,0,0,1);font-family: Abril Fatface";>usability, learnability, memorability:</h6>
+    <ul><li>Small text in the navigation bar</li>
+        <li>Location of navigation bar changes (moves from top to the left side when off home page)</li>
+        <li>Inconsistent use of colors (black, blue, various shades of red)</li>
+        <li>Significance of underlined text is not uniform (in some it means its a link, in others its to denote importance)</li>
+        <li>The word &#34;we&#34; appears on the Bagel gourmet cafe logo when on any page besides the home page</li>
+        <li>No readjustments or responsive design to interfaces of different sizes</li>
+    </ul>
+    <div class="flex-container">
+        <div class="grid-item">
+            <h6 style="color:rgba(133,0,0,1);font-family: Abril Fatface";>accessibility:</h6>
+            <ul>
+                <li>Missing language tag </li>
+                <li>Missing page title</li>
+                <li>Missing alt tags for photos</li>
+                <li>Contrast errors (between text and background)</li>
+                <li>Very small text warnings</li>
+            </ul>
+        </div>
+        <div class="grid-item" style="align-self:center; width:50%">
+            </br></br></br>
+            <p><b><i>BGC's current site could use some major redesign to improve aspects of accesibility. The simple addition of alt tags, larger font size, and greater contrasting colors will make the site usable by a broader range of people. </i></b></p>
+        </div>
+    </div>
+</br>
+    <h6 style="color:rgba(133,0,0,1);font-family: Abril Fatface";>Low-Fidelity Prototypes:</h6>
+    <p>From my findings, I created a low-fidelty mockup for 3 different interfaces: mobile, tablet, and desktop. </p>
+    <div class="flex-container2">
+        <div class="grid-item">
+            <img src="BG_low_phone.png" alt="Low-fi phone mockup" class="center" style="width:110%;">
+        </div>
+        <div class="grid-item">
+            <img src="BG_low_tablet.png" alt="Low-fi tablet mockup" class="center" style="width:110%;">
+        </div>
+        <div class="grid-item">
+            <img src="BG_low_desktop.png" alt="Low-fi tablet mockup" class="center" style="width:110%;">
+        </div>
+    </div>
+    <h6 style="color:rgba(133,0,0,1);font-family: Abril Fatface";>High-Fidelity Prototypes:</h6>
+    <p>I then created higher fidelity mockups, with more speicifcation annotations regarding software engineering elements and use.</p>
+    <div class="flex-container2">
+        <div class="grid-item">
+            <img src="BG_high_mobile.png" alt="high-fi phone mockup" class="center" style="width:110%;">
+        </div>
+        <div class="grid-item">
+            <img src="BG_high_tablet.png" alt="high-fi tablet mockup" class="center" style="width:110%;">
+        </div>
+        <div class="grid-item">
+            <img src="BG_high_desktop.png" alt="high-fi tablet mockup" class="center" style="width:110%;">
+        </div>
+    </div>
+    <h6 style="color:rgba(133,0,0,1);font-family: Abril Fatface";>Style Guide:</h6>
+    <p>Based on my functionality and design choices, I was then able to create a style guide:</p>
+    <img src="styleGuide.png" alt="styleGuide" class="center" style="width:100%;">
+    <h6 style="color:rgba(133,0,0,1);font-family: Abril Fatface";>My redesigned webpage:</h6>
+    <p>Lastly, I actually created a redesigned webpage from my prototypes and style guide, using html and css.</p>
+    <p>Here's a link to the page: <a style="color:rgba(133, 0, 0, 1)"  href="https://limitless-headland-92190.herokuapp.com/";>BGC's redesigned menu page</a></p>
+    <p>I've included some photos of the webpage from a mobile and desktop view:</p>
+    <div class="flex-container2">
+        <div class="grid-item">
+            <img src="phoneView.png" alt="redesigned page mobile view" class="center" style="width:100%;">
+        </div>
+        <div class="grid-item">
+            <img src="desktopView.png" alt="redesigned page desktop view" class="center" style="width:100%;">
+        </div>
+    </div>
+  </body>
+</html>
